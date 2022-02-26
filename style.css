@@ -76,6 +76,7 @@ border-radius: .5rem;
 .line{
 color: var(--Very_dark_blueE);
 background-color:var(--Very_dark_blueE) ;
+height: 0.13rem;
 }
 .coinWrap{
     display: flex;
