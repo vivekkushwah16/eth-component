@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+:root {
+  --Very_dark_blueC: hsl(217, 54%, 11%);
+  --Very_dark_blueD: hsl(216, 50%, 16%);
+  --Very_dark_blueE: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color:white;
+
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+img{
+    max-width: 100%;
+}
+body {
+  background-color:var(--Very_dark_blueC);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.card{
+    width: 20rem;
+    background: var(--Very_dark_blueD);
+    border-radius: 1rem;
+    padding:1.5rem;
+    margin-bottom:1rem;
+}
+.cardImage{
+    margin-bottom:1rem;
+}
+.cardImage img{
+ border-radius: .5rem;
+ 
+}
+.heading{
+    font-size: 1.5rem;
+    color:var(--White);
+    
+}
+
+.text{
+    font-size: 0.8rem;
+    color:var(--Softblue);
+    
+    
+}
+.coinWrap{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.coinWrap img{
+    margin-right:0.3rem;
+}
+.text_eth{
+    color:var(--Cyan);
+    font-size: 1rem;
+    padding: .2rem;
+}
+.author{
+  
+    display: flex;
+    justify-content: flex-start !important; 
+}
+.author img{
+    width:2rem;
+    margin-right: 1rem;
+    border: 2px solid #fff;
+    border-radius:50%;
+}
+.gap{
+    margin-bottom:1rem
+}
+.flex{
+    display:flex;
+   justify-content:center;
+   align-items: center;
+}
+span{
+    color:var(--Softblue);
+}
+.col{
+    color:var(--White);
+}
+@media(max-width:350px){
+    html{
+        font-size:14px;
+    }
+}
