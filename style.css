@@ -71,9 +71,11 @@ border-radius: .5rem;
 
 .text{
     font-size: 0.8rem;
-    color:var(--Softblue);
-    
-    
+    color:var(--Softblue);  
+}
+.line{
+color: var(--Very_dark_blueE);
+background-color:var(--Very_dark_blueE) ;
 }
 .coinWrap{
     display: flex;
